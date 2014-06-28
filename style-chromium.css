@@ -113,7 +113,7 @@ div#loginGreating:hover:before
  	display : block; 
 }
 
-div#loginGreating:hover a[href="/people/sambist/profile"],
+div#loginGreating:hover a[href^="/people/"],
 div#loginGreating:hover div#regmenu,
 div#loginGreating:hover form#regform label,
 div#loginGreating:hover form#regform input
@@ -121,7 +121,7 @@ div#loginGreating:hover form#regform input
 	display : block !important;
 }
 
-div#loginGreating a[href="/people/sambist/profile"]
+div#loginGreating a[href^="/people/"]
 {
   	display : none;
   	position : absolute;
