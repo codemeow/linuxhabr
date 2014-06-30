@@ -14,7 +14,7 @@ div#hd
 div#hd::after,
 div#hd::before,
 div.menu::after,
-div.menu::before,
+div.menu::before
 {
  	display : none !important; 
 }
